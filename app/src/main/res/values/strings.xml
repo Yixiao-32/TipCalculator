@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="edit_checkamount">checkAmount</string>
+    <string name="edit_partySize">partySize</string>
+    <string name="edit_15Tip">15Tip</string>
+    <string name="edit_20Tip">20Tip</string>
+    <string name="edit_25Tip">25Tip</string>
+    <string name="edit_15Total">15Total</string>
+    <string name="edit_20Total">20Total</string>
+    <string name="edit_25Total">25Total</string>
+    <string name="button_Compute">ComputeTip</string>
+</resources>

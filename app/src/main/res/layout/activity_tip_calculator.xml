@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/checkAmount"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="    Check amount:" />
+
+        <EditText
+            android:id="@+id/checkAmountValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/partySize"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="    Party size: " />
+
+        <EditText
+            android:id="@+id/partySizeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCompute"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="@string/button_Compute" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips and total (per person)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorLink="#703737" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/percentTip"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tips：" />
+
+        <TextView
+            android:id="@+id/percent15Tip"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            android:text="15% :" />
+
+        <EditText
+            android:id="@+id/fifteenPercentTipValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_15Tip" />
+
+        <TextView
+            android:id="@+id/percent20Tip"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20% :" />
+
+        <EditText
+            android:id="@+id/twentyPercentTipValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_20Tip" />
+
+        <TextView
+            android:id="@+id/percent25Tip"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="25% :" />
+
+        <EditText
+            android:id="@+id/twentyfivePercentTipValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_25Tip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/percentTotal"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total：" />
+
+        <TextView
+            android:id="@+id/percent15Total"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15% :" />
+
+        <EditText
+            android:id="@+id/fifteenPercentTotalValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_15Total" />
+
+        <TextView
+            android:id="@+id/percent20Total"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20% :" />
+
+        <EditText
+            android:id="@+id/twentyPercentTotalValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_20Total" />
+
+        <TextView
+            android:id="@+id/percent25Total"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="25% :" />
+
+        <EditText
+            android:id="@+id/twentyfivePercentTotalValue"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_25Total" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
