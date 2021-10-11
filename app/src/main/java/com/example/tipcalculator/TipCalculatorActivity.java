@@ -1,5 +1,5 @@
 package com.example.tipcalculator;
-// edu.qc.seclass.tipcalculator;
+package edu.qc.seclass.tipcalculator;
 
 
 import androidx.appcompat.app.AppCompatActivity;
